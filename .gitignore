@@ -10,6 +10,7 @@ hist_weather_cache/
 *.db
 *.csv
 *.ipynb
+*.json
 
 # Virtual environments
 .venv

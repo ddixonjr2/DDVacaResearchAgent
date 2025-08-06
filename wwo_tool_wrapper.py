@@ -43,9 +43,12 @@ def get_historic_weather_data(location: str) -> list[pd.DataFrame]:
     except Exception as e:
         print(f'Failed to retrieve historical weather data:\n{e}')
         return None
-    
+
 @function_tool
 def get_historical_weather_description(location: str) -> str:
+    return get_historical_weather_desc(location)
+    
+def get_historical_weather_desc(location: str) -> str:
     '''
     Retrieves historic weather, calculates averages, and returns a description summarizing the averages.
     
@@ -76,7 +79,7 @@ def get_historical_weather_description(location: str) -> str:
 
 def test():
     try:
-        response = get_historical_weather_description('Florianopolis, Brazil')
+        response = get_historical_weather_desc('Florianopolis, Brazil')
         print(f'The test response is:\n{response}')
     except Exception as e:
         print(f'Test failed:\n{e}')

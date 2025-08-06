@@ -8,6 +8,10 @@ UI_MAIN_PROMPT = 'What would you like to know next?'
 UI_NAME_TITLE = 'Your Name'
 UI_CUR_LOCATION_TITLE = 'Your Current Location'
 UI_PREFS_TITLE = 'Jot Preferences Here\n(one word or phrase per line)'
+UI_NAME_PLACEHOLDER = 'Tell us your name'
+UI_CUR_LOCATION_PLACEHOLDER = 'Where you are now'
+UI_PREFS_PLACEHOLDER = 'Freeform words or phrases indicating how you like things'
+
 UI_IN_PROGRESS_TEXT = 'Searching...'
 UI_GOODBYE_TEXT = 'Thanks for using Dream Vacation Researcher!'
 
